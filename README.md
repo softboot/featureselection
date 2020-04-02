@@ -14,6 +14,10 @@ Celem drugiego laboratorium jest zapoznanie się z istotnym aspektem uczenia mas
 4. Uruchom narzędzie Jupyter Notebook poleceniem:<br/>`jupyter notebook`
 5. Otwórz notatnik *Feature-selection-and-extraction.ipynb* i zapoznaj się z przedstawionym materiałem.
 
+**Uwaga!** Jeśli podczas próby ładowania zbiorów danych wystąpi błąd MemoryError, spróbuj uruchomić ponownie Jupyter Notebook z ręcznie zwiększonym limitem rozmiaru bufora. Przykładowe wywołanie:
+
+    jupyter notebook --NotebookApp.max_buffer_size=1000000000
+
 Powodzenia!
 
 ---
